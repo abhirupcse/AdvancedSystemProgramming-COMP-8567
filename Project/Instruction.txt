@@ -1,9 +1,9 @@
 SERVER C FILE
 1. Kindly run the C file in this order only.
-2. Syntax to run server.c file (./server PORT_NUMBER) eg. ./server 50000
+2. Syntax to run server.c file (./server PORT_NUMBER) eg. ./server 5000
 ============================================================================
 MIRROR C FILE
-1. Syntax to run mirror.c file (./mirror PORT_NUMBER) eg. ./server 50005
+1. Syntax to run mirror.c file (./mirror PORT_NUMBER) eg. ./server 5005
 2. NOTE that server port and mirror port should be DIFFERENT
 ============================================================================
 CLIENT C FILE
