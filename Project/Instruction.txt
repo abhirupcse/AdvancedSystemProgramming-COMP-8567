@@ -7,9 +7,9 @@ MIRROR C FILE
 2. NOTE that server port and mirror port should be DIFFERENT
 ============================================================================
 CLIENT C FILE
-1. Syntax to run mirror.c file (./client IP_ADDRESS_OF_LOCALSYSTEM PORT_NUMBER) eg. ./server 192.168.2.251 50005
-2. 192.168.2.251 is my mac system ip for linux system to view port command is hostname -i
-3. Use defined commands as in pdf file also COMMANDS mentioned below
+1. Syntax to run mirror.c file (./client IP_ADDRESS_OF_LOCALSYSTEM PORT_NUMBER) eg. ./server xxx.xxx.x.xxx 5000
+2. xxx.xxx.x.xxx is local system ip for linux system to view ip command is "hostname -i"
+3. Use defined commands as in pdf file/problem statement. COMMANDS mentioned below as well
 ============================================================================
 // BELOW ARE THE CLIENT COMMAND PROVIDED BY THE USER IN THE CLENT TERMINAL
 //   1 - fgets file1 file2 file3 file4
@@ -19,5 +19,8 @@ CLIENT C FILE
 //   5 - getdirf date1 date2 <-u>
 //   6 - quit-  The command is transferred to the server and the client process is terminated
 ============================================================================
-ASP Project GIT URL
-https://dev.azure.com/kumar2d/ASP%20Project
+NOTE: We have made this code ERROR + WARNING FREE. Also make sure that we are picking files from a self made folder name as "roab" which is placed in the HOME directory path. Kindly make sure to change the folder name accordingly in order to run the code.
+
+Server and Mirror will only take 1 argument i.e. port number as we have internally handeled the IP logic and will automatically consider the local system IP. For client code make sure to explicitly use the local system ip along side port number. To check the local system ip use command "hostname -i"
+
+Also we have designed code in such a way that it successfully runs on NOMACHINE, MACOS and Virtual Windows(WSL) Debian application.
