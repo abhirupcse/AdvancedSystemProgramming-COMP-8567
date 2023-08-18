@@ -1,4 +1,4 @@
-# AdvancedSystemProgramming-COMP-8567
+# Advanced System Programming COMP-8567
 
 Project Team Members
 1. [Abhirup Ranjan](https://www.linkedin.com/in/abhirupranjan/)
