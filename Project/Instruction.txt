@@ -1,0 +1,23 @@
+SERVER C FILE
+1. Kindly run the C file in this order only.
+2. Syntax to run server.c file (./server PORT_NUMBER) eg. ./server 50000
+============================================================================
+MIRROR C FILE
+1. Syntax to run mirror.c file (./mirror PORT_NUMBER) eg. ./server 50005
+2. NOTE that server port and mirror port should be DIFFERENT
+============================================================================
+CLIENT C FILE
+1. Syntax to run mirror.c file (./client IP_ADDRESS_OF_LOCALSYSTEM PORT_NUMBER) eg. ./server 192.168.2.251 50005
+2. 192.168.2.251 is my mac system ip for linux system to view port command is hostname -i
+3. Use defined commands as in pdf file also COMMANDS mentioned below
+============================================================================
+// BELOW ARE THE CLIENT COMMAND PROVIDED BY THE USER IN THE CLENT TERMINAL
+//   1 - fgets file1 file2 file3 file4
+//   2 - tarfgetz size1 size2 <-u>
+//   3 - filesrch filename
+//   4 - targzf <extension list> <-u> //up to 4 different file types
+//   5 - getdirf date1 date2 <-u>
+//   6 - quit-  The command is transferred to the server and the client process is terminated
+============================================================================
+ASP Project GIT URL
+https://dev.azure.com/kumar2d/ASP%20Project
