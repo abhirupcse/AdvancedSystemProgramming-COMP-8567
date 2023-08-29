@@ -1,7 +1,6 @@
-//@Author: Abhirup Ranjan(110091866)
+//@Author: Abhirup Ranjan
 // Section: 3
 // COMP8567
-// Took help from Google, StackOverflow and other technical websites for designing the code.
 
 #include <unistd.h>
 #include <stdio.h>
