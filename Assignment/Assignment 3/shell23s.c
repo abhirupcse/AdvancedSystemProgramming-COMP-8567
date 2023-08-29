@@ -1,3 +1,7 @@
+//@Author: Abhirup Ranjan
+// Section: 3
+// COMP8567
+
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/wait.h>
