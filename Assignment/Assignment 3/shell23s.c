@@ -1,7 +1,3 @@
-//@Author: Abhirup Ranjan(110091866)
-// Section: 3
-// COMP8567
-// Took help from Google, StackOverflow and other technical websites for designing the code.
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/wait.h>
