@@ -1,8 +1,6 @@
-//@Author: Abhirup Ranjan(110091866)
+//@Author: Abhirup Ranjan
 // Section: 3
 // COMP8567
-
-// Took help from Google, StackOverflow and other technical websites for designing the code.
 
 //It gives the compiler instructions to include definitions for a few extra functions that are included in the X/Open and POSIX standards.
 #define _XOPEN_SOURCE 500 
